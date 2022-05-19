@@ -1,0 +1,21 @@
+.yellow,
+.whitesmoke {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.yellow > div,
+.whitesmoke > div {
+  margin: 20px;
+  padding: 10px;
+}
+.yellow {
+  background: yellow;
+}
+.whitesmoke {
+  background: whitesmoke;
+}
